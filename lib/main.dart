@@ -16,10 +16,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'Cflix',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
       getPages: AppPages.rootGetPage,
       initialRoute: Routes.home,
       builder: (context, child) => child!,
