@@ -2,6 +2,8 @@ import 'package:cflix/app/data/model/video_list_model.dart';
 import 'package:cflix/app/ui/app_colors.dart';
 import 'package:flutter/material.dart';
 
+import 'video_item_numbering_widget.dart';
+
 class HorizonListFrame extends StatelessWidget {
   final VideoListModel? model;
   /// 제목 영역을 제외한 높이
@@ -49,15 +51,12 @@ class HorizonListFrame extends StatelessWidget {
     return ListView.separated(
       scrollDirection: Axis.horizontal,
       itemBuilder: (_, index) {
-        return Container(
-          width: 100,
-          height: 100,
-          color: Colors.lightBlue,
-        );
+        return VideoItemNumberingWidget(item: model!.videoList![index],);
+
       },
       separatorBuilder: (_, __) {
         return const SizedBox(
-          width: 12,
+          width: 0,
         );
       },
       itemCount: (model?.videoList ?? []).length,
