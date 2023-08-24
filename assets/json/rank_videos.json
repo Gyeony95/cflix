@@ -1,0 +1,68 @@
+{
+  "resultCode" : 200,
+  "resultMessage" : "요청에 성공했습니다.",
+  "listInfo" : [
+    {
+      "listTitle" : "오늘의 인기순위 TOP 10 시리즈!",
+      "videoList" : [
+        {
+          "videoId" : 1,
+          "originalYn" : "Y",
+          "newSeasonYn" : "Y",
+          "newEpisodeYn" : "Y",
+          "imageUrl" : "https://occ-0-395-988.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVatjPbSZ2KXdtEzBeXJIeirlweXwKbY2QamHp6V5Rz96P7rz3mhvVaaWsN87qjE6ADX_qrWFa4b0DUos5s3O5jH0MMHMFCvcugwiDKUj3mV_mPQ--cPE_MeR8AGeW2mXrEs1vCRCDFz-n1l00WPGBImQVGh1VKo-WMoWrmDBkapDtOYO62rbAmq0rZetoVIjA_Zv-AcmYP2dDEvncTpKRGScw521lWNr_s050Ju9h2LqjnRKTIUVvGpCis5a59WSfDHcQcupcCVwE98VHppCyj1ngvYbYA7.webp?r=a8c",
+          "rank" : 1
+        },{
+          "videoId" : 2,
+          "originalYn" : "Y",
+          "newSeasonYn" : "Y",
+          "newEpisodeYn" : "Y",
+          "imageUrl" : "https://occ-0-395-988.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVatjPbSZ2KXdtEzBeXJIeirlweXwKbY2QamHp6V5Rz96P7rz3mhvVaaWsN87qjE6ADX_qrWFa4b0DUos5s3O5jH0MMHMFCvcugwiDKUj3mV_mPQ--cPE_MeR8AGeW2mXrEs1vCRCDFz-n1l00WPGBImQVGh1VKo-WMoWrmDBkapDtOYO62rbAmq0rZetoVIjA_Zv-AcmYP2dDEvncTpKRGScw521lWNr_s050Ju9h2LqjnRKTIUVvGpCis5a59WSfDHcQcupcCVwE98VHppCyj1ngvYbYA7.webp?r=a8c",
+          "rank" : 2
+        },{
+          "videoId" : 3,
+          "originalYn" : "Y",
+          "newSeasonYn" : "Y",
+          "newEpisodeYn" : "Y",
+          "imageUrl" : "https://occ-0-395-988.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVatjPbSZ2KXdtEzBeXJIeirlweXwKbY2QamHp6V5Rz96P7rz3mhvVaaWsN87qjE6ADX_qrWFa4b0DUos5s3O5jH0MMHMFCvcugwiDKUj3mV_mPQ--cPE_MeR8AGeW2mXrEs1vCRCDFz-n1l00WPGBImQVGh1VKo-WMoWrmDBkapDtOYO62rbAmq0rZetoVIjA_Zv-AcmYP2dDEvncTpKRGScw521lWNr_s050Ju9h2LqjnRKTIUVvGpCis5a59WSfDHcQcupcCVwE98VHppCyj1ngvYbYA7.webp?r=a8c",
+          "rank" : 3
+        },{
+          "videoId" : 4,
+          "originalYn" : "Y",
+          "newSeasonYn" : "Y",
+          "newEpisodeYn" : "Y",
+          "imageUrl" : "https://occ-0-395-988.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVatjPbSZ2KXdtEzBeXJIeirlweXwKbY2QamHp6V5Rz96P7rz3mhvVaaWsN87qjE6ADX_qrWFa4b0DUos5s3O5jH0MMHMFCvcugwiDKUj3mV_mPQ--cPE_MeR8AGeW2mXrEs1vCRCDFz-n1l00WPGBImQVGh1VKo-WMoWrmDBkapDtOYO62rbAmq0rZetoVIjA_Zv-AcmYP2dDEvncTpKRGScw521lWNr_s050Ju9h2LqjnRKTIUVvGpCis5a59WSfDHcQcupcCVwE98VHppCyj1ngvYbYA7.webp?r=a8c",
+          "rank" : 4
+        },{
+          "videoId" : 5,
+          "originalYn" : "Y",
+          "newSeasonYn" : "Y",
+          "newEpisodeYn" : "Y",
+          "imageUrl" : "https://occ-0-395-988.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVatjPbSZ2KXdtEzBeXJIeirlweXwKbY2QamHp6V5Rz96P7rz3mhvVaaWsN87qjE6ADX_qrWFa4b0DUos5s3O5jH0MMHMFCvcugwiDKUj3mV_mPQ--cPE_MeR8AGeW2mXrEs1vCRCDFz-n1l00WPGBImQVGh1VKo-WMoWrmDBkapDtOYO62rbAmq0rZetoVIjA_Zv-AcmYP2dDEvncTpKRGScw521lWNr_s050Ju9h2LqjnRKTIUVvGpCis5a59WSfDHcQcupcCVwE98VHppCyj1ngvYbYA7.webp?r=a8c",
+          "rank" : 5
+        },{
+          "videoId" : 6,
+          "originalYn" : "Y",
+          "newSeasonYn" : "Y",
+          "newEpisodeYn" : "Y",
+          "imageUrl" : "https://occ-0-395-988.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVatjPbSZ2KXdtEzBeXJIeirlweXwKbY2QamHp6V5Rz96P7rz3mhvVaaWsN87qjE6ADX_qrWFa4b0DUos5s3O5jH0MMHMFCvcugwiDKUj3mV_mPQ--cPE_MeR8AGeW2mXrEs1vCRCDFz-n1l00WPGBImQVGh1VKo-WMoWrmDBkapDtOYO62rbAmq0rZetoVIjA_Zv-AcmYP2dDEvncTpKRGScw521lWNr_s050Ju9h2LqjnRKTIUVvGpCis5a59WSfDHcQcupcCVwE98VHppCyj1ngvYbYA7.webp?r=a8c",
+          "rank" : 6
+        },{
+          "videoId" : 7,
+          "originalYn" : "Y",
+          "newSeasonYn" : "Y",
+          "newEpisodeYn" : "Y",
+          "imageUrl" : "https://occ-0-395-988.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVatjPbSZ2KXdtEzBeXJIeirlweXwKbY2QamHp6V5Rz96P7rz3mhvVaaWsN87qjE6ADX_qrWFa4b0DUos5s3O5jH0MMHMFCvcugwiDKUj3mV_mPQ--cPE_MeR8AGeW2mXrEs1vCRCDFz-n1l00WPGBImQVGh1VKo-WMoWrmDBkapDtOYO62rbAmq0rZetoVIjA_Zv-AcmYP2dDEvncTpKRGScw521lWNr_s050Ju9h2LqjnRKTIUVvGpCis5a59WSfDHcQcupcCVwE98VHppCyj1ngvYbYA7.webp?r=a8c",
+          "rank" : 7
+        },{
+          "videoId" : 8,
+          "originalYn" : "Y",
+          "newSeasonYn" : "Y",
+          "newEpisodeYn" : "Y",
+          "imageUrl" : "https://occ-0-395-988.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVatjPbSZ2KXdtEzBeXJIeirlweXwKbY2QamHp6V5Rz96P7rz3mhvVaaWsN87qjE6ADX_qrWFa4b0DUos5s3O5jH0MMHMFCvcugwiDKUj3mV_mPQ--cPE_MeR8AGeW2mXrEs1vCRCDFz-n1l00WPGBImQVGh1VKo-WMoWrmDBkapDtOYO62rbAmq0rZetoVIjA_Zv-AcmYP2dDEvncTpKRGScw521lWNr_s050Ju9h2LqjnRKTIUVvGpCis5a59WSfDHcQcupcCVwE98VHppCyj1ngvYbYA7.webp?r=a8c",
+          "rank" : 8
+        }
+      ]
+    }
+  ]
+}

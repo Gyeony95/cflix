@@ -68,18 +68,23 @@ class HomePage extends GetView<HomeController> {
             ),
           ),
         ),
-        Positioned(
-          bottom: 0,
-          left: 48,
-          right: 48,
-          child: Obx(
-            () => HorizonListFrame(
-              model: controller.listModel.value,
-              contentHeight: 120,
-            ),
-          ),
-        ),
+        _rankListView(),
       ],
+    );
+  }
+
+  /// 오늘 인기있는 top 10
+  Widget _rankListView(){
+    return Positioned(
+      bottom: 0,
+      left: 48,
+      right: 48,
+      child: Obx(
+            () => HorizonListFrame(
+          model: controller.rankList.value,
+          contentHeight: 120,
+        ),
+      ),
     );
   }
 }
