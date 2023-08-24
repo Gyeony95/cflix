@@ -5,7 +5,11 @@ class HomeRepository{
   final HomeApiClient client;
   const HomeRepository({required this.client});
 
-  Future<VideoListModel> getVideoList() async {
-    return await client.getVideoList();
+  Future<VideoListModel?> getVideoList() async {
+    var result = await client.getVideoList();
+    if(result == null) return null;
+    var list = result.data;
+    if(list == null || list.isEmpty) return null;
+    return list.first;
   }
 }

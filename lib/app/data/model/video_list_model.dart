@@ -1,19 +1,13 @@
 class VideoListModel {
-  int? resultCode;
-  String? resultMessage;
   String? listTitle;
   List<VideoItem>? videoList;
 
   VideoListModel({
-    this.resultCode,
-    this.resultMessage,
     this.videoList,
     this.listTitle,
   });
 
   VideoListModel.fromJson(Map<String, dynamic> json) {
-    resultCode = json['resultCode'];
-    resultMessage = json['resultMessage'];
     listTitle = json['listTitle'];
     if (json['videoList'] != null) {
       videoList = <VideoItem>[];
@@ -25,8 +19,6 @@ class VideoListModel {
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
-    data['resultCode'] = resultCode;
-    data['resultMessage'] = resultMessage;
     data['listTitle'] = listTitle;
     if (videoList != null) {
       data['videoList'] = videoList!.map((v) => v.toJson()).toList();

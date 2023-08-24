@@ -70,8 +70,8 @@ class HomePage extends GetView<HomeController> {
         ),
         Positioned(
           bottom: 0,
-          left: 0,
-          right: 0,
+          left: 48,
+          right: 48,
           child: Obx(
             () => HorizonListFrame(
               model: controller.listModel.value,

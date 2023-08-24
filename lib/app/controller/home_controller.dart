@@ -36,6 +36,7 @@ class HomeController extends GetxController with GetSingleTickerProviderStateMix
 
   Future<void> getVideoList() async {
     var result = await repository.getVideoList();
+    if(result == null) return;
     if((result.videoList ?? []).isNotEmpty){
       listModel.value = result;
     }
