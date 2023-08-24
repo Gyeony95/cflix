@@ -15,7 +15,7 @@ class VideoItemNumberingWidget extends StatelessWidget {
         Stack(
           children: [
             Container(
-              margin: const EdgeInsets.only(right: 60),
+              margin: const EdgeInsets.only(right: 90),
               child: SvgPicture.asset(
                 'assets/svgs/rank_${item.videoId ?? 1}.svg',
                 height: 200,
@@ -30,7 +30,7 @@ class VideoItemNumberingWidget extends StatelessWidget {
                 item.imageUrl!,
                 // width: 120,
                 height: 200,
-                width: 80,
+                width: 110,
                 fit: BoxFit.cover,
               ),
             )

@@ -37,6 +37,7 @@ class HomePage extends GetView<HomeController> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           _homeBanner(),
+          Obx(_videoListBody),
         ],
       ),
     );
@@ -68,23 +69,46 @@ class HomePage extends GetView<HomeController> {
             ),
           ),
         ),
-        _rankListView(),
+        _rankListItem(),
       ],
     );
   }
 
   /// 오늘 인기있는 top 10
-  Widget _rankListView(){
+  Widget _rankListItem() {
     return Positioned(
       bottom: 0,
-      left: 48,
-      right: 48,
+      left: 0,
+      right: 0,
       child: Obx(
-            () => HorizonListFrame(
+        () => HorizonListFrame(
+          isNumberWidget: true,
           model: controller.rankList.value,
-          contentHeight: 120,
+          contentHeight: 150,
         ),
       ),
+    );
+  }
+
+  Widget _videoListBody() {
+    return ListView.separated(
+      shrinkWrap: true,
+      physics: const NeverScrollableScrollPhysics(),
+        itemCount: (controller.videoList).length,
+        itemBuilder: (context, index) {
+          return _videoListItem(index);
+        },
+        separatorBuilder: (_, __) {
+          return const SizedBox(
+            height: 50,
+          );
+        });
+  }
+
+  Widget _videoListItem(int index) {
+    return HorizonListFrame(
+      model: controller.videoList[index],
+      contentHeight: 150,
     );
   }
 }

@@ -16,7 +16,7 @@ class HomeApiClient{
   }
 
   Future<Result<List<VideoListModel>>?> getVideoList() async {
-    String jsonString = await rootBundle.loadString('assets/json/rank_videos.json');
+    String jsonString = await rootBundle.loadString('assets/json/videos.json');
     final jsonResponse = jsonDecode(jsonString) as Map<String, dynamic>;
     await Future.delayed(const Duration(milliseconds: 500));
     final listInfo = DataUtil.jsonToList<VideoListModel>(
