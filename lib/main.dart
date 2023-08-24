@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'app/route/routes.dart';
+import 'app/util/custom_scroll_behavior.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Cflix',
       getPages: AppPages.rootGetPage,
+      scrollBehavior: CustomScrollBehavior(),
       initialRoute: Routes.home,
       builder: (context, child) => child!,
     );
