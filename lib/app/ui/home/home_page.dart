@@ -1,6 +1,5 @@
 import 'package:cflix/app/controller/home_controller.dart';
 import 'package:cflix/app/ui/app_colors.dart';
-import 'package:cflix/app/ui/widget/gradient_app_bar.dart';
 import 'package:cflix/app/ui/widget/horizon_list_frame.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -10,23 +9,7 @@ class HomePage extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: bgColor,
-      body: NotificationListener<ScrollNotification>(
-        onNotification: controller.scrollListener,
-        child: Stack(
-          children: [
-            _buildBody(),
-            _appbar(),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _appbar() {
-    return GradientAppbar(
-      animationController: controller.animationController,
-      colorTweenTop: controller.colorTweenTop,
-      colorTweenBottom: controller.colorTweenBottom,
+      body: _buildBody(),
     );
   }
 
